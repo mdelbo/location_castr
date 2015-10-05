@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = LocationCastr::VERSION
   s.authors     = ["mdelbo"]
   s.email       = ["michael@bonobolabs.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of LocationCastr."
-  s.description = "TODO: Description of LocationCastr."
+  s.homepage    = "https://github.com/mdelbo/location_castr"
+  s.summary     = "Converts strings in lat/lng hash values to big decimals."
+  s.description = "Converts strings in lat/lng hash values to big decimals."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
