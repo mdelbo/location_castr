@@ -1,6 +1,6 @@
 Hash.class_eval do
   def to_location
-    {lat:BigDecimal.new(self[:lat]), lng:BigDecimal.new(self[:lng])}
+    {lat:BigDecimal.new(self[:lat], 9), lng:BigDecimal.new(self[:lng], 9)}
   end
 end
 
